@@ -7,7 +7,7 @@
     <title>Scarper</title>
 </head>
 <body>
-<form action="", method="POST">
+<form action="" method="POST">
     {% csrf_token %}
     {{ cakes_form.as_p }}
     <p>{{ error_msg }}</p>
