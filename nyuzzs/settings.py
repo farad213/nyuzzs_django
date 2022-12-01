@@ -132,4 +132,4 @@ CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = False
 SECURE_SSL_REDIRECT = False
 
-CSRF_TRUSTED_ORIGINS = ["https: // nyuzzs.up.railway.app"]
+CSRF_TRUSTED_ORIGINS = ["https://nyuzzs.up.railway.app"]
