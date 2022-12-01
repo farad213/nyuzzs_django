@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scarper</title>
+</head>
+<body>
+<form action="", method="POST">
+    {% csrf_token %}
+    {{ cakes_form.as_p }}
+    <p>{{ error_msg }}</p>
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
